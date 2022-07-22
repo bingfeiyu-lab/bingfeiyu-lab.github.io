@@ -2,6 +2,8 @@
 
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
 
+{% if page.show_title %}
+
 {% if page.cover-img or page.title %}
 
 {% if page.cover-img %}
@@ -92,5 +94,7 @@
 
 
 {% else %}
-<div class="intro-header"></div>
+<br>
+<!-- <div class="intro-header"></div> -->
+{% endif %}
 {% endif %}

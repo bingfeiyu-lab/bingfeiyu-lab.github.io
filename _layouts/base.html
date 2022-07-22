@@ -30,7 +30,9 @@ common-js:
 
   {% include nav.html %}
 
+  {%- if page.header_img -%}
   <img style='max-height: 100%' src={{page.header_img}} alt="">
+  {%- endif -%}
 
   {{ content }}
 

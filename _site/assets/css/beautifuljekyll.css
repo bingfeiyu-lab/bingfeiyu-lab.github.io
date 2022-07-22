@@ -14,10 +14,11 @@ body {
   background-color: #FFFFFF;
   
   overflow-wrap: break-word;
+  padding-top: 5rem;
 }
 p {
   line-height: 1.5;
-  margin: 1.875rem 0;
+  margin: 1.875rem 0 0 0;
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -123,7 +124,7 @@ img {
   -webkit-transition: padding .5s ease-in-out;
   -moz-transition: padding .5s ease-in-out;
   transition: padding .5s ease-in-out;
-  position: relative
+  # position: relative
 }
 
 .navbar-custom,
