@@ -133,6 +133,7 @@ img {
   -webkit-transition: padding .5s ease-in-out;
   -moz-transition: padding .5s ease-in-out;
   transition: padding .5s ease-in-out;
+  position: relative
 }
 
 .navbar-custom,
