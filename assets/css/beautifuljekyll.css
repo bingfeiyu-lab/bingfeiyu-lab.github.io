@@ -667,7 +667,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   transition: opacity 1s linear;
 }
 .intro-header .page-heading {
-  text-align: center;
+    text-align: center;
 }
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading {
