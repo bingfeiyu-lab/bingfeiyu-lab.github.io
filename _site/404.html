@@ -12,7 +12,7 @@
   <title>404 - Page not found</title>
 
   
-  <meta name="author" content="Some Person">
+  <meta name="author" content="Bingfei Yu">
   
 
   <meta name="description" content="Whoops, this page doesn't exist.
@@ -23,7 +23,7 @@
   
 
   
-  <link rel="alternate" type="application/rss+xml" title="My Website" href="http://localhost:4000/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Yu Lab" href="http://localhost:4000/feed.xml">
   
 
   
@@ -76,13 +76,11 @@
   
 
   
-  <meta property="og:site_name" content="My Website">
+  <meta property="og:site_name" content="Yu Lab">
   <meta property="og:title" content="404 - Page not found">
   <meta property="og:description" content="Whoops, this page doesn't exist.
   Move along. (404 error)">
 
-  
-  <meta property="og:image" content="http://localhost:4000/assets/img/avatar-icon.png">
   
 
   
@@ -102,8 +100,6 @@
   Move along. (404 error)">
 
   
-  <meta name="twitter:image" content="http://localhost:4000/assets/img/avatar-icon.png">
-  
 
   
 
@@ -120,14 +116,20 @@
   
 
 
-  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">My Website</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand navbar-brand-logo" href="http://localhost:4000/"><img alt="Yu Lab Logo" src="/img/icon.png"/></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/aboutme">About Me</a>
+            <a class="nav-link" href="/index">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/research">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/team">Team</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
@@ -137,9 +139,6 @@
             </div>
           </li>
         
-          <li class="nav-item">
-            <a class="nav-link" href="https://deanattali.com">Author's home</a>
-          </li>
         <li class="nav-item">
           <a class="nav-link" id="nav-search-link" href="#" title="Search">
             <span id="nav-search-icon" class="fa fa-search"></span>
@@ -150,14 +149,6 @@
 
   
 
-  
-    <div class="avatar-container">
-      <div class="avatar-img-border">
-        <a href="http://localhost:4000/">
-          <img alt="Navigation bar avatar" class="avatar-img" src="/assets/img/avatar-icon.png" />
-        </a>
-      </div>
-    </div>
   
 
 </nav>
@@ -197,9 +188,16 @@
         }, \
        \
         { \
-          "title"    : "My website", \
+          "title"    : "", \
           "category" : "page", \
           "url"      : "/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "", \
+          "category" : "page", \
+          "url"      : "/research/", \
           "date"     : "January 1, 1970" \
         }, \
        \
@@ -207,6 +205,13 @@
           "title"    : "Tag Index", \
           "category" : "page", \
           "url"      : "/tags/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "", \
+          "category" : "page", \
+          "url"      : "/team/", \
           "date"     : "January 1, 1970" \
         } \
        \
@@ -224,6 +229,8 @@
 
 
 
+
+  <img style='max-height: 100%' src= alt="">
 
   <div class="intro-header"></div>
 
@@ -308,7 +315,7 @@
       
       <p class="copyright text-muted">
       
-        Some Person
+        Bingfei Yu
         &nbsp;&bull;&nbsp;
       
       2022

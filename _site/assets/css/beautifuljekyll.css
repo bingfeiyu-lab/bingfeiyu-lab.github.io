@@ -116,13 +116,14 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: #EAEAEA;
-  border-bottom: 1px solid #DDDDDD;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   
   -webkit-transition: padding .5s ease-in-out;
   -moz-transition: padding .5s ease-in-out;
   transition: padding .5s ease-in-out;
+  position: relative
 }
 
 .navbar-custom,
@@ -250,7 +251,7 @@ img {
 
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
   padding: 0.625rem;
-  background-color: #EAEAEA;
+  background-color: #FFFFFF;
   text-decoration: none !important;
   font-weight: normal;
   color: #404040;
@@ -266,7 +267,7 @@ img {
 
   .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
     padding-left: 0.625rem;
-    border: 1px solid #DDDDDD;
+    border: 1px solid #FFFFFF;
     border-width: 0 1px 1px;
   }
 
@@ -277,7 +278,7 @@ img {
 
 @media (max-width: 1199px) {
   .navbar-custom .navbar-collapse {
-    border-top: 1px solid #DDDDDD;
+    border-top: 1px solid #FFFFFF;
     margin: 0 -1rem;
   }
 
