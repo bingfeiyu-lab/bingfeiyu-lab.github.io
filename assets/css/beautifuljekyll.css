@@ -21,7 +21,7 @@ body {
   background-attachment: fixed;
   {% endif %}
   overflow-wrap: break-word;
-  padding-top: 5rem;
+  padding-top: 6rem;
 }
 p {
   line-height: 1.5;
