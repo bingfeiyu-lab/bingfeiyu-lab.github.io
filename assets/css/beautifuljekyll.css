@@ -173,7 +173,7 @@ img {
 .navbar-custom .navbar-brand-logo img,
 .navbar-custom.top-nav-short .navbar-brand-logo img,
 .navbar-custom.top-nav-short-permanent .navbar-brand-logo img {
-  height: 2.5rem;
+  height: 3.5rem;
 }
 
 .navbar-custom .navbar-nav .nav-item {
@@ -213,10 +213,10 @@ img {
   border-width: 0.4em;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 200px) {
   .navbar-custom {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .navbar-custom .navbar-brand-logo {
@@ -225,20 +225,20 @@ img {
   }
 
   .navbar-custom .navbar-brand-logo img {
-    height: 3.125rem;
+    height: 3.5rem;
   }
 
-  .navbar-expand-xl .navbar-nav .nav-link {
+  .navbar-expand-sm .navbar-nav .nav-link {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
   }
 
-  .navbar-expand-xl .navbar-nav .nav-item:not(.dropdown):last-child .nav-link {
+  .navbar-expand-sm .navbar-nav .nav-item:not(.dropdown):last-child .nav-link {
     padding-right: 0;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 200px) {
   .navbar-custom .nav-item.dropdown:hover {
     background: rgba(0, 0, 0, 0.1);
   }
