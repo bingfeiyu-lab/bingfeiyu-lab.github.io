@@ -12,10 +12,13 @@
 <loc>http://localhost:4000/aboutme/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/contact/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://localhost:4000/joinus/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/news/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/research/</loc>

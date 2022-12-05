@@ -119,7 +119,7 @@ img {
 .navbar-custom {
   background-color: #FFFFFF;
   border-bottom: 1px solid #FFFFFF;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   
   -webkit-transition: padding .5s ease-in-out;
   -moz-transition: padding .5s ease-in-out;
@@ -218,13 +218,14 @@ img {
     height: 3.5rem;
   }
 
-  .navbar-expand-sm .navbar-nav .nav-link {
+  .navbar-expand-md .navbar-nav .nav-link {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
+    font-size: 1rem
   }
 
-  .navbar-expand-sm .navbar-nav .nav-item:not(.dropdown):last-child .nav-link {
-    padding-right: 0;
+  .navbar-expand-md .navbar-nav .nav-item:not(.dropdown):last-child .nav-link {
+    padding-right: 2.5rem;
   }
 }
 
