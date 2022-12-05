@@ -21,7 +21,7 @@ body {
   background-attachment: fixed;
   {% endif %}
   overflow-wrap: break-word;
-  padding-top: 6rem;
+  padding-top: 4rem;
 }
 p {
   line-height: 1.5;
@@ -215,8 +215,8 @@ img {
 
 @media (min-width: 200px) {
   .navbar-custom {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .navbar-custom .navbar-brand-logo {
@@ -231,7 +231,7 @@ img {
   .navbar-expand-md .navbar-nav .nav-link {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    font-size: 1rem
+    font-size: 1rem;
   }
 
   .navbar-expand-md .navbar-nav .nav-item:not(.dropdown):last-child .nav-link {
