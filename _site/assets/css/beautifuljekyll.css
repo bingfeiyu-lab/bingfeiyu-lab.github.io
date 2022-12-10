@@ -14,7 +14,7 @@ body {
   background-color: #FFFFFF;
   
   overflow-wrap: break-word;
-  padding-top: 6rem;
+  padding-top: 4rem;
 }
 p {
   line-height: 1.5;
@@ -205,8 +205,8 @@ img {
 
 @media (min-width: 200px) {
   .navbar-custom {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .navbar-custom .navbar-brand-logo {
@@ -221,7 +221,7 @@ img {
   .navbar-expand-md .navbar-nav .nav-link {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    font-size: 1rem
+    font-size: 1rem;
   }
 
   .navbar-expand-md .navbar-nav .nav-item:not(.dropdown):last-child .nav-link {
@@ -398,7 +398,7 @@ footer .list-inline {
   margin-bottom: 1.875rem;
 }
 footer .copyright {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   text-align: center;
   margin-bottom: 0;
   margin-top: 0;
@@ -410,12 +410,13 @@ footer .theme-by {
 footer .footer-custom-content {
   text-align: center;
   margin-bottom: 0.9375rem;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 @media (min-width: 768px) {
   footer {
-    padding: 3.125rem 0;
+      padding: 3.125rem 0;
+      padding-top: 1rem
   }
   footer .footer-links {
     font-size: 1.125rem;
