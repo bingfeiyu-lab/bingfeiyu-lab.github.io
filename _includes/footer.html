@@ -37,6 +37,13 @@
        {% endif%}
 
       </p>
+      {% if site.lab_address and site.lab_address_url %}
+      <p class="center">
+        <a href="{{ site.lab_address_url}}">{{ site.lab_address }}</a>
+      </p>
+      {% endif %}
+
+      </p>
       {% unless site.remove-ads %}<p class="theme-by text-muted">
         Powered by
         <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
