@@ -1,0 +1,44 @@
+.section_title {
+    text-align: center;
+    font-size: 180%;
+
+}
+.research_title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+    color: black;
+}
+.tab {
+    margin-left: 40px;
+}
+
+.center {
+    text-align: center
+}
+.subtitle_text {
+    text-align: center;
+    font-size: 150%;
+}
+
+.column1 {
+    width: 30%;
+    vertical-align: middle
+}
+
+.column2 {
+    width: 70%;
+    vertical-align: middle
+}
+
+.highlight {
+    vertical-align: middle;
+    font-size: 150%;   
+}
+
+.highlighted-text {
+    color: #008080ff;
+    font-weight: bold;
+    background-color: transparent;
+    margin: 0;
+}
