@@ -296,6 +296,10 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - _posts/
+  - TODO.md
+  - feed.xml
+  - beautiful-jekyll-theme.gemspec
 
 plugins:
   - jekyll-paginate
