@@ -42,3 +42,7 @@
     background-color: transparent;
     margin: 0;
 }
+
+.a {
+    target: "_blank"
+}
