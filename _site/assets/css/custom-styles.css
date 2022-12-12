@@ -46,3 +46,11 @@
 .news_date {
     margin-right: 0.5rem;
 }
+
+.header_title_embed {
+  position: absolute;
+  top: 5%;
+  left: 1%;
+  color: black;
+  width: 80%
+}

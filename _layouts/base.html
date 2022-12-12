@@ -25,10 +25,11 @@ common-js:
 {% include head.html %}
 
 <body>
-
   {% include gtm_body.html %}
 
-  {% include nav.html %}
+  <div style="margin-bottom: 0.7rem">
+    {% include nav.html %}
+  </div>
 
   {%- if page.header_img -%}
   <img style='width: 100%' src={{page.header_img}} alt="">
