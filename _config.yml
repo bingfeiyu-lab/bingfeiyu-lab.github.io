@@ -300,6 +300,7 @@ exclude:
   - TODO.md
   - feed.xml
   - beautiful-jekyll-theme.gemspec
+  - [vendor]
 
 plugins:
   - jekyll-paginate
