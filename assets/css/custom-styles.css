@@ -43,10 +43,6 @@
     margin: 0;
 }
 
-a {
-    target: "_blank";
-}
-
 .news_date {
-    margin-right: 0.5rem
+    margin-right: 0.5rem;
 }
