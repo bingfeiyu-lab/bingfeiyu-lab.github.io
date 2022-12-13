@@ -15,8 +15,9 @@ body {
   position: static;
   background-color: #FFFFFF;
   
-  overflow-wrap: break-word;
+  # overflow-wrap: break-word;
   hyphens: auto;
+  -webkit-hyphens: auto;
   overflow-x: hidden;
   padding-top: 4rem;
 }
