@@ -16,6 +16,7 @@ body {
   background-color: #FFFFFF;
   
   overflow-wrap: break-word;
+  hyphens: auto;
   overflow-x: hidden;
   padding-top: 4rem;
 }
