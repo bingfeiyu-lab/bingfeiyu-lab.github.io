@@ -135,11 +135,7 @@
   <meta property="twitter:title" content="{{ title }}">
   <meta property="twitter:description" content="{{ description }}">
 
-  {% if img != "" %}
-  <meta name="twitter:image" content="{{site.url}}{{img}}">
-  {% endif %}
-  <meta name="twitter:image" content="https://bingfeiyulab.org/img/lab_logo.png">
-
+  <meta name="twitter:image" content="{{site.url}}{{site.twitter_image}}">
 
   {% include matomo.html %}
 
