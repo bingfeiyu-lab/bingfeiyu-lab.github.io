@@ -24,7 +24,6 @@
   {% endcapture %}
 
   <link rel="shortcut icon" href="/img/lab_logo.ico">
-  <meta name="twitter:image:src" content="{{ site.twitter_logo }}">
   
   <title>{{ title }}</title>
 
@@ -137,8 +136,10 @@
   <meta property="twitter:description" content="{{ description }}">
 
   {% if img != "" %}
-  <meta name="twitter:image:src" content="{{site.url}}{{img}}">
+  <meta name="twitter:image" content="{{site.url}}{{img}}">
   {% endif %}
+  <meta name="twitter:image" content="https://bingfeiyulab.org/img/lab_logo.png">
+
 
   {% include matomo.html %}
 
