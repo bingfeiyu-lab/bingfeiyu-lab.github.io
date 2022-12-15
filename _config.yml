@@ -54,9 +54,7 @@ navbar-links:
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
 title-img: /img/icon.png
-
-# twitter-logo: /img/lab_logo.png
-twitter-logo: https://github.com/bingfeiyu-lab/bingfeiyu-lab.github.io/blob/main/img/lab_logo.png?raw=true
+twitter-logo: /img/lab_logo.png
 
 #####################################
 # --- Footer social media links --- #
