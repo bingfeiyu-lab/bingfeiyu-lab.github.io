@@ -10,22 +10,21 @@
   
 
   <link rel="shortcut icon" href="/img/lab_logo.ico">
-  <meta name="twitter:image:src" content="">
   
-  <title>News</title>
+  <title>Yu Lab</title>
 
   
   <meta name="author" content="Yu Lab @ USC Norris Comprehensive Cancer Center">
   
 
-  <meta name="description" content="2022-12 Our paper Engineered cell entry links receptor biology with single-cell genomics is finally out at Cell! 2022-11 Bingfei weighs in on data from the COBALT-RCC study presented at SITC22 conference in Helios 2022-07 Bingfei received the Parker Bridge Fellow award supported by the Parker Institute for Cancer Immunotherapy and...">
+  <meta name="description" content="The Yu Lab at USC is devoted to decoding intercellular immune recognition and intracellular molecular programming to advance immunotherapies for cancer and other diseases. We employ single-cell genomics, synthetic biology, and systems immunology to study the fundamental principles of how immune cells integrate antigen specificity and environmental cues to mount...">
 
   
 
   
 
   
-  <link rel="alternate" type="application/rss+xml" title="Yu Lab" href="http://localhost:4000/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Yu Lab" href="http://bingfeiyulab.org/feed.xml">
   
 
   
@@ -83,15 +82,15 @@
 
   
   <meta property="og:site_name" content="Yu Lab">
-  <meta property="og:title" content="News">
-  <meta property="og:description" content="2022-12 Our paper Engineered cell entry links receptor biology with single-cell genomics is finally out at Cell! 2022-11 Bingfei weighs in on data from the COBALT-RCC study presented at SITC22 conference in Helios 2022-07 Bingfei received the Parker Bridge Fellow award supported by the Parker Institute for Cancer Immunotherapy and...">
+  <meta property="og:title" content="Yu Lab">
+  <meta property="og:description" content="The Yu Lab at USC is devoted to decoding intercellular immune recognition and intracellular molecular programming to advance immunotherapies for cancer and other diseases. We employ single-cell genomics, synthetic biology, and systems immunology to study the fundamental principles of how immune cells integrate antigen specificity and environmental cues to mount...">
 
   
 
   
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://localhost:4000/news/">
-  <link rel="canonical" href="http://localhost:4000/news/">
+  <meta property="og:url" content="http://bingfeiyulab.org/">
+  <link rel="canonical" href="http://bingfeiyulab.org/">
   
 
   
@@ -100,8 +99,8 @@
   <meta name="twitter:site" content="@">
   <meta name="twitter:creator" content="@">
 
-  <meta property="twitter:title" content="News">
-  <meta property="twitter:description" content="2022-12 Our paper Engineered cell entry links receptor biology with single-cell genomics is finally out at Cell! 2022-11 Bingfei weighs in on data from the COBALT-RCC study presented at SITC22 conference in Helios 2022-07 Bingfei received the Parker Bridge Fellow award supported by the Parker Institute for Cancer Immunotherapy and...">
+  <meta property="twitter:title" content="Yu Lab">
+  <meta property="twitter:description" content="The Yu Lab at USC is devoted to decoding intercellular immune recognition and intracellular molecular programming to advance immunotherapies for cancer and other diseases. We employ single-cell genomics, synthetic biology, and systems immunology to study the fundamental principles of how immune cells integrate antigen specificity and environmental cues to mount...">
 
   
 
@@ -120,7 +119,7 @@
 
 
   <div style="margin-bottom: 0.7rem">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand navbar-brand-logo" href="http://localhost:4000/"><img alt="Yu Lab Logo" src="/img/icon.png"/></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand navbar-brand-logo" href="http://bingfeiyulab.org/"><img alt="Yu Lab Logo" src="/img/icon.png"/></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -155,7 +154,7 @@
 
 
 
-  </div><img style='width: 100%' src=../img/news.png alt=""><!-- TODO this file has become a mess, refactor it -->
+  </div><img style='width: 100%' src=../img/home.png alt=""><!-- TODO this file has become a mess, refactor it -->
 
 
 
@@ -168,34 +167,57 @@
       
 
       <div class="container" align="justify">
-  <ul style="margin-top: 2rem">
+  <p>
+    <b>
+      The Yu Lab at USC is devoted to decoding intercellular immune recognition and intracellular
+      molecular programming to advance immunotherapies for cancer and other diseases. 
+    </b>
+  </p>
+  <p>
+    We employ single-cell genomics, synthetic biology, and systems immunology to study the fundamental
+    principles of how immune cells integrate antigen specificity and environmental cues to mount effective
+    immune responses. 
+  </p>
 
-    <li style="margin-top: 2rem">
-      <span class="news_date">2022-12</span>
-      Our paper
-      <a href="https://www.sciencedirect.com/science/article/pii/S009286742201460X" target="_blank">Engineered cell entry links receptor biology with single-cell genomics</a>
-      is finally out at <i style="margin-right: 0.2rem">Cell</i>!
-    </li>
+  <p class="subtitle_text">
+    We ask
+  </p>
 
+  <div class="row justify-content-center">
+    <div class="col-md-7">
+      <ul style="list-style: none; padding: 0;">
+	<li style="margin-top: 2rem">
+	  (1) How do immune cells
+	  "<a href="../research/#see" style="color: #404040"><mark class="highlighted-text">see</mark></a>"
+	  foreign antigens to evoke immune responses?
+	</li>
+	<li style="margin-top: 2rem">
+	  (2) How do immune cells
+	  "<a href="../research/#talk" style="color: #404040"><mark class="highlighted-text">talk</mark></a>"
+	  to other cells to control their fate decisions? 
+	</li>
+	<li style="margin-top: 2rem">
+	  (3) How can we
+	  "<a href="../research/#rewrite" style="color: #404040"><mark class="highlighted-text">rewrite</mark></a>"
+	  molecular circuits to modify immune cell behavior?
+	</li>
+      </ul>
+    </div>
+  </div>
 
-    <li style="margin-top: 2rem">
-      <span class="news_date">2022-11</span>
-      Bingfei weighs in on data from the COBALT-RCC study presented at SITC22 conference in
-      <a href="https://www.healio.com/news/hematology-oncology/20221111/offtheshelf-cart-produces-complete-remission-in-patient-with-advanced-kidney-cancer"
-	 target="_blank">
-	Helios
-      </a>	   
-    </li>
-    
-    <li style="margin-top: 2rem">
-      <span class="news_date">2022-07</span>
-      Bingfei received the
-      <a href="https://www.parkerici.org/person/bingfei-yu-phd/" target="_black">Parker Bridge Fellow award</a>
-      supported by the Parker Institute for Cancer Immunotherapy and the V foundation.
-    </li>
+    <p class="center" style="margin-top: 2rem">
+      <a href="../research">
+	<button style="border-radius: 8px; background-color: #008080ff; color: white; border: 0px; padding: 0.1rem 0.8rem 0.1rem 0.8rem;">
+	  Learn More
+	</button>
+      </a>
+    </p>
+  </p>
 
-  </ul>
 </div>
+
+
+
 
 
       

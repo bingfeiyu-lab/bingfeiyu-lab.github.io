@@ -24,6 +24,7 @@
   {% endcapture %}
 
   <link rel="shortcut icon" href="/img/lab_logo.ico">
+  <meta name="twitter:image:src" content="{{ site.twitter_logo }}">
   
   <title>{{ title }}</title>
 
@@ -101,8 +102,6 @@
       {{ page.thumbnail-img }}
     {%- elsif site.avatar -%}
       {{ site.avatar }}
-    {%- elsif site.twitter_logo -%}
-      {{ site.twitter_logo }}
     {% endif %}
   {%- endcapture -%}
   {%- assign img=img | strip -%}
