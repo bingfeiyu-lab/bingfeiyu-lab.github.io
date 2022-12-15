@@ -23,6 +23,10 @@
     {%- endif -%}
   {% endcapture %}
 
+  {%- if site.twitter_logo -%}
+  <meta name="twitter:image" content="{{ site.twitter_logo }}"/>
+  {%- endif -%}
+    
   <link rel="shortcut icon" href="/img/lab_logo.ico">
   
   <title>{{ title }}</title>
