@@ -34,7 +34,7 @@ navbar-links:
   Research: "research"
   Team: "team"
   Publications: "publications"
-  News: "news"
+  # News: "news"
   Join Us: "joinus"
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
