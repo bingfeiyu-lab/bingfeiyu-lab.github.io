@@ -31,7 +31,7 @@ full-width: true
 
 navbar-links:
   Home: "index"
-  Research: "research"
+  # Research: "research"
   Team: "team"
   Publications: "publications"
   # News: "news"
